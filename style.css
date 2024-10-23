@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+   
+}
+.navigation{
+    display: flex;  
+    gap: 1vw;
+    height: 100%;
+    
+}
+.anchor{
+    height: 100%;
+    width: 5vw;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    transition: 300ms;
+    
+   
+}
+.anchor:hover{
+    background-color: rgb(255, 72, 0);
+    
+}
+.anchor:hover a{
+    color: white;
+}
+.anchor a{
+    text-decoration: none;
+    color: black;
+
+}
+.get button{
+    background-color: rgb(255, 72, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: .7rem 1.2rem;
+    transition: 200ms;
+}
+.get button:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.banner{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(Captura\ de\ tela\ 2024-10-22\ 195802.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text{
+    text-align: center;
+}
+.text {
+   padding-top:9vh;
+}
+.text h3{
+    color: rgb(255, 72, 0);
+    font-size: 30px;
+    
+}
+.text h1{
+    color: white;
+    font-size: 50px;
+   
+}
+.inputt{
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+   
+}
+.inputt input{
+    height: 6vh;
+    width: 25vw;
+    border: none;
+    padding: .2rem 1rem;
+    
+}
+.buttonInput{
+    height: 7.1vh;
+    width: 7vw;
+    border: none;
+    background-color: rgba(255, 72, 0, 0.898);
+    transition: 200ms;
+}
+.buttonInput:hover{
+    background-color:rgb(255, 72, 0);
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+    margin-top: 25px;
+    height: 45vh;
+}
+.leftText{
+    background-color: rgb(202, 202, 202);
+    width: 40vw;
+}
+.leftText .getQuote{
+    color: rgb(255, 72, 0);
+    text-align: start;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+}
+.heightInputs{
+    background-color: rgb(255, 72, 0);
+    width: 30vw;
+}
+.dados{
+    display: flex;
+    gap: 4vw;
+}
+.info{
+
+}
+
+
+
+
